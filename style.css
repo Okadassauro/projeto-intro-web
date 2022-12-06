@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    height: 13vh;
+    padding-left: 2%;
+    display: grid;
+    align-items: center;
+}
+
+.div-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.borda-botao-input {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border: none;
+    width: 15vw;
+    height: 5vh;
+    background: none;
+}
+
+.button {
+    border: none;
+    width: 15vw;
+    height: 5vh;
+    border-left: solid 1px black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 15 px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+#div-sections {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    padding-bottom: 2vh;
+    justify-content: center;
+    align-items: center;
+    min-height: 29vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#section1 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    grid-template-columns: 1fr 2fr;
+    background-color: grey;
+    align-items: center;
+    justify-items: center;
+    width: 40vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.section2 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-template-columns: 1fr 2fr;
+    background-color: gray;
+    align-items: center;
+    justify-items: center;
+    width: 40vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.section3 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    grid-template-columns: 1fr 2fr;
+    background-color: gray;
+    align-items: center;
+    justify-items: center;
+    width: 40vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.Lista {
+    list-style: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 13vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
